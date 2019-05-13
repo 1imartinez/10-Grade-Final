@@ -59,7 +59,17 @@
         </section>
     </article>
     
-    <form method="GET"action="cart.html"></form>
+    <form method="GET"action="cart.html" target="blank" oninput="calculate()">
+        <select name="Option" id="option">
+            <option value="$15.99"></option>
+            <option value="$19.99"></option>
+            <option value="$99.99"></option>
+            <option value="$7.99"></option>
+            <option value="$25.99"></option>
+            <option value="$49.99"></option>
+        </select>
+        Square_feet: <input id="">
+    </form>
     
     <style>
         /* The sidebar menu */
