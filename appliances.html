@@ -11,66 +11,26 @@
 </head>
 <body>
 
-    <aside>
-        <div id="mySidebar" class="sidebar">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="author.html">Author</a>
-                <a href="services.html">Services</a>
-                <a href="appliances.html">Appliances</a>
-                <a href="membership.html">Membership</a>
-                <a href="index.html">Home</a>
-        </div>
+    <aside id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="author.html">Author</a>
+        <a href="services.html">Services</a>
+        <a href="appliances.html">Appliances</a>
+        <a href="membership.html">Membership</a>
+        <a href="index.html">Home</a>
     </aside>
-    <main>
-    <div id="main">
-            <button class="openbtn" onclick="openNav()">&#9776; Sidebar</button> 
-        </div>
-        <div>
-            <button class="btn"><i class="fa fa-cart"></i> cart</button>
-        </div>
-    <h1>Store</h1>
-    <form action="cart.html" method="POST"></form>
-    <article>
-            <h2>Appliances</h2>
-            <section class="container">
-                <div>
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAMFBMVEXQ0NCqqKi6ubnBwMCnpaXPz8+wrq64tratq6vHxsa0srLMzMyrqanLysq/vb3Ew8PptXwOAAACvElEQVR4nO3a3Y6rIBSG4WIRFSre/91OK9rdKYgdbbYs8z7JnExP+ALC4udyAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2Mr5Kubd0c36mt5qrWJa2/7opn1Hn0g3O0XE/pZJeDvDSK1SI/TJHt28/epcvrv66Abudl1JeD26gbs1Kwmboxu4l1sJqHR3dBO3qIdhXtXtWkLVPCuATso36bxJrvCrvamNjDKnM1viTSGNgDGbq2A+UXyV48zOhKb0iPkK5gO69OVjZ76HoyPkDV9IOBwdIst/IaE/OkRWlW+8abz3zcpkVB0dIiuX0D7Xc5ctdaQmbH6v5d1yRS4zYRtvkq7tmRKaVL25VBxITNimC2qX7kWBCdu5EHOdt9b6bg7cJyPKS6jnb3Aw6lHTaWXmRf2aqvHkJZyO05z9F0fbqRtTq4a8hKHD3uaVKWKqyhOX0I5nE3XzNiBN+HeiE6Ul1KHMjDsrdO0Qf4niEo7DsY7XvnbsxF5+wnb8v4uDhOiXOLq0hGEm9YmEYfjG9am0hOFQIlVnL/1ynoRm4ZfzJDxXHybKs6mYk58wzKVdImHYEsfFt7SEOly3xLVLWA9r+evhNBiXaprE8JWWcN5avNWl89H2CepSpcL35trXiPNTmi7xUENewjDXXPrXWbOZtv3n2B/qeUffqfHmVOubn257EzsLiQnncXrX+6Zp/PP+7CznNC9HUb+lA4pMqNrUfdJCQJkJ1S2OOJzqzPuxPLzfWyxeFgtNeGcqV9f15f7nKpN5sCg3odLKWlvd/1T2sr/shGvv9D5RdsLuCwnLfjS0cJ30FwsXVcXY/56m7EGaPPr9G1P8A8W9X2LZX+HI7XqbWPZzoUntTau3aI0vfohOXH/doi98FgUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPiffgCv1BfNcLZ8TgAAAABJRU5ErkJggg==" alt="">
-                    <a class="price title" href="">$15.99</a>
-                </div>
-                <div>
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAMFBMVEXQ0NCqqKi6ubnBwMCnpaXPz8+wrq64tratq6vHxsa0srLMzMyrqanLysq/vb3Ew8PptXwOAAACvElEQVR4nO3a3Y6rIBSG4WIRFSre/91OK9rdKYgdbbYs8z7JnExP+ALC4udyAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2Mr5Kubd0c36mt5qrWJa2/7opn1Hn0g3O0XE/pZJeDvDSK1SI/TJHt28/epcvrv66Abudl1JeD26gbs1Kwmboxu4l1sJqHR3dBO3qIdhXtXtWkLVPCuATso36bxJrvCrvamNjDKnM1viTSGNgDGbq2A+UXyV48zOhKb0iPkK5gO69OVjZ76HoyPkDV9IOBwdIst/IaE/OkRWlW+8abz3zcpkVB0dIiuX0D7Xc5ctdaQmbH6v5d1yRS4zYRtvkq7tmRKaVL25VBxITNimC2qX7kWBCdu5EHOdt9b6bg7cJyPKS6jnb3Aw6lHTaWXmRf2aqvHkJZyO05z9F0fbqRtTq4a8hKHD3uaVKWKqyhOX0I5nE3XzNiBN+HeiE6Ul1KHMjDsrdO0Qf4niEo7DsY7XvnbsxF5+wnb8v4uDhOiXOLq0hGEm9YmEYfjG9am0hOFQIlVnL/1ynoRm4ZfzJDxXHybKs6mYk58wzKVdImHYEsfFt7SEOly3xLVLWA9r+evhNBiXaprE8JWWcN5avNWl89H2CepSpcL35trXiPNTmi7xUENewjDXXPrXWbOZtv3n2B/qeUffqfHmVOubn257EzsLiQnncXrX+6Zp/PP+7CznNC9HUb+lA4pMqNrUfdJCQJkJ1S2OOJzqzPuxPLzfWyxeFgtNeGcqV9f15f7nKpN5sCg3odLKWlvd/1T2sr/shGvv9D5RdsLuCwnLfjS0cJ30FwsXVcXY/56m7EGaPPr9G1P8A8W9X2LZX+HI7XqbWPZzoUntTau3aI0vfohOXH/doi98FgUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPiffgCv1BfNcLZ8TgAAAABJRU5ErkJggg==" alt="">
-                    <a class="price title" href="">$19.99</a>
-                </div>
-                <div>
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAMFBMVEXQ0NCqqKi6ubnBwMCnpaXPz8+wrq64tratq6vHxsa0srLMzMyrqanLysq/vb3Ew8PptXwOAAACvElEQVR4nO3a3Y6rIBSG4WIRFSre/91OK9rdKYgdbbYs8z7JnExP+ALC4udyAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2Mr5Kubd0c36mt5qrWJa2/7opn1Hn0g3O0XE/pZJeDvDSK1SI/TJHt28/epcvrv66Abudl1JeD26gbs1Kwmboxu4l1sJqHR3dBO3qIdhXtXtWkLVPCuATso36bxJrvCrvamNjDKnM1viTSGNgDGbq2A+UXyV48zOhKb0iPkK5gO69OVjZ76HoyPkDV9IOBwdIst/IaE/OkRWlW+8abz3zcpkVB0dIiuX0D7Xc5ctdaQmbH6v5d1yRS4zYRtvkq7tmRKaVL25VBxITNimC2qX7kWBCdu5EHOdt9b6bg7cJyPKS6jnb3Aw6lHTaWXmRf2aqvHkJZyO05z9F0fbqRtTq4a8hKHD3uaVKWKqyhOX0I5nE3XzNiBN+HeiE6Ul1KHMjDsrdO0Qf4niEo7DsY7XvnbsxF5+wnb8v4uDhOiXOLq0hGEm9YmEYfjG9am0hOFQIlVnL/1ynoRm4ZfzJDxXHybKs6mYk58wzKVdImHYEsfFt7SEOly3xLVLWA9r+evhNBiXaprE8JWWcN5avNWl89H2CepSpcL35trXiPNTmi7xUENewjDXXPrXWbOZtv3n2B/qeUffqfHmVOubn257EzsLiQnncXrX+6Zp/PP+7CznNC9HUb+lA4pMqNrUfdJCQJkJ1S2OOJzqzPuxPLzfWyxeFgtNeGcqV9f15f7nKpN5sCg3odLKWlvd/1T2sr/shGvv9D5RdsLuCwnLfjS0cJ30FwsXVcXY/56m7EGaPPr9G1P8A8W9X2LZX+HI7XqbWPZzoUntTau3aI0vfohOXH/doi98FgUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPiffgCv1BfNcLZ8TgAAAABJRU5ErkJggg==" alt="">
-                    <a class="price title" href="">$99.99</a>
-                </div>       
-                <div>
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAMFBMVEXQ0NCqqKi6ubnBwMCnpaXPz8+wrq64tratq6vHxsa0srLMzMyrqanLysq/vb3Ew8PptXwOAAACvElEQVR4nO3a3Y6rIBSG4WIRFSre/91OK9rdKYgdbbYs8z7JnExP+ALC4udyAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2Mr5Kubd0c36mt5qrWJa2/7opn1Hn0g3O0XE/pZJeDvDSK1SI/TJHt28/epcvrv66Abudl1JeD26gbs1Kwmboxu4l1sJqHR3dBO3qIdhXtXtWkLVPCuATso36bxJrvCrvamNjDKnM1viTSGNgDGbq2A+UXyV48zOhKb0iPkK5gO69OVjZ76HoyPkDV9IOBwdIst/IaE/OkRWlW+8abz3zcpkVB0dIiuX0D7Xc5ctdaQmbH6v5d1yRS4zYRtvkq7tmRKaVL25VBxITNimC2qX7kWBCdu5EHOdt9b6bg7cJyPKS6jnb3Aw6lHTaWXmRf2aqvHkJZyO05z9F0fbqRtTq4a8hKHD3uaVKWKqyhOX0I5nE3XzNiBN+HeiE6Ul1KHMjDsrdO0Qf4niEo7DsY7XvnbsxF5+wnb8v4uDhOiXOLq0hGEm9YmEYfjG9am0hOFQIlVnL/1ynoRm4ZfzJDxXHybKs6mYk58wzKVdImHYEsfFt7SEOly3xLVLWA9r+evhNBiXaprE8JWWcN5avNWl89H2CepSpcL35trXiPNTmi7xUENewjDXXPrXWbOZtv3n2B/qeUffqfHmVOubn257EzsLiQnncXrX+6Zp/PP+7CznNC9HUb+lA4pMqNrUfdJCQJkJ1S2OOJzqzPuxPLzfWyxeFgtNeGcqV9f15f7nKpN5sCg3odLKWlvd/1T2sr/shGvv9D5RdsLuCwnLfjS0cJ30FwsXVcXY/56m7EGaPPr9G1P8A8W9X2LZX+HI7XqbWPZzoUntTau3aI0vfohOXH/doi98FgUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPiffgCv1BfNcLZ8TgAAAABJRU5ErkJggg==" alt="">
-                    <a class="price title" href="">$7.99</a>
-                </div>
-                <div>
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAMFBMVEXQ0NCqqKi6ubnBwMCnpaXPz8+wrq64tratq6vHxsa0srLMzMyrqanLysq/vb3Ew8PptXwOAAACvElEQVR4nO3a3Y6rIBSG4WIRFSre/91OK9rdKYgdbbYs8z7JnExP+ALC4udyAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2Mr5Kubd0c36mt5qrWJa2/7opn1Hn0g3O0XE/pZJeDvDSK1SI/TJHt28/epcvrv66Abudl1JeD26gbs1Kwmboxu4l1sJqHR3dBO3qIdhXtXtWkLVPCuATso36bxJrvCrvamNjDKnM1viTSGNgDGbq2A+UXyV48zOhKb0iPkK5gO69OVjZ76HoyPkDV9IOBwdIst/IaE/OkRWlW+8abz3zcpkVB0dIiuX0D7Xc5ctdaQmbH6v5d1yRS4zYRtvkq7tmRKaVL25VBxITNimC2qX7kWBCdu5EHOdt9b6bg7cJyPKS6jnb3Aw6lHTaWXmRf2aqvHkJZyO05z9F0fbqRtTq4a8hKHD3uaVKWKqyhOX0I5nE3XzNiBN+HeiE6Ul1KHMjDsrdO0Qf4niEo7DsY7XvnbsxF5+wnb8v4uDhOiXOLq0hGEm9YmEYfjG9am0hOFQIlVnL/1ynoRm4ZfzJDxXHybKs6mYk58wzKVdImHYEsfFt7SEOly3xLVLWA9r+evhNBiXaprE8JWWcN5avNWl89H2CepSpcL35trXiPNTmi7xUENewjDXXPrXWbOZtv3n2B/qeUffqfHmVOubn257EzsLiQnncXrX+6Zp/PP+7CznNC9HUb+lA4pMqNrUfdJCQJkJ1S2OOJzqzPuxPLzfWyxeFgtNeGcqV9f15f7nKpN5sCg3odLKWlvd/1T2sr/shGvv9D5RdsLuCwnLfjS0cJ30FwsXVcXY/56m7EGaPPr9G1P8A8W9X2LZX+HI7XqbWPZzoUntTau3aI0vfohOXH/doi98FgUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPiffgCv1BfNcLZ8TgAAAABJRU5ErkJggg==" alt="">
-                    <a class="price title" href="">$25.99</a>
-                </div>
-                <div>
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAMFBMVEXQ0NCqqKi6ubnBwMCnpaXPz8+wrq64tratq6vHxsa0srLMzMyrqanLysq/vb3Ew8PptXwOAAACvElEQVR4nO3a3Y6rIBSG4WIRFSre/91OK9rdKYgdbbYs8z7JnExP+ALC4udyAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2Mr5Kubd0c36mt5qrWJa2/7opn1Hn0g3O0XE/pZJeDvDSK1SI/TJHt28/epcvrv66Abudl1JeD26gbs1Kwmboxu4l1sJqHR3dBO3qIdhXtXtWkLVPCuATso36bxJrvCrvamNjDKnM1viTSGNgDGbq2A+UXyV48zOhKb0iPkK5gO69OVjZ76HoyPkDV9IOBwdIst/IaE/OkRWlW+8abz3zcpkVB0dIiuX0D7Xc5ctdaQmbH6v5d1yRS4zYRtvkq7tmRKaVL25VBxITNimC2qX7kWBCdu5EHOdt9b6bg7cJyPKS6jnb3Aw6lHTaWXmRf2aqvHkJZyO05z9F0fbqRtTq4a8hKHD3uaVKWKqyhOX0I5nE3XzNiBN+HeiE6Ul1KHMjDsrdO0Qf4niEo7DsY7XvnbsxF5+wnb8v4uDhOiXOLq0hGEm9YmEYfjG9am0hOFQIlVnL/1ynoRm4ZfzJDxXHybKs6mYk58wzKVdImHYEsfFt7SEOly3xLVLWA9r+evhNBiXaprE8JWWcN5avNWl89H2CepSpcL35trXiPNTmi7xUENewjDXXPrXWbOZtv3n2B/qeUffqfHmVOubn257EzsLiQnncXrX+6Zp/PP+7CznNC9HUb+lA4pMqNrUfdJCQJkJ1S2OOJzqzPuxPLzfWyxeFgtNeGcqV9f15f7nKpN5sCg3odLKWlvd/1T2sr/shGvv9D5RdsLuCwnLfjS0cJ30FwsXVcXY/56m7EGaPPr9G1P8A8W9X2LZX+HI7XqbWPZzoUntTau3aI0vfohOXH/doi98FgUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPiffgCv1BfNcLZ8TgAAAABJRU5ErkJggg==" alt="">
-                    <a class="price title" href="">$49.99</a>
-                </div>
-            </section>
+    
+    <main id="main">
+        <h1>Home</h1>
+        <button class="openbtn" onclick="toggle()">&#9776; Menu</button> 
+        <article>
+            <img src="https://thewanderlustkitchen.com/wp-content/uploads/2015/03/house-remodel-reveal-before-and-after-222.jpg">
+    
+            <h2>Welcome to my online store</h2>
+            <P>
+                This online store is an actual company located in Chicago Illinois. When I first decided to make this company it was just based off of a television show. We have helped many people with their homes. Renovations, remodeling, and have a store that we sell products if you want to do it yourself. All within a click of a button. How awsome is that!!. Please feel free to look around and explore. Thank You.
+            </P>
         </article>
-        
-        <form method="GET" action="cart.html" target="blank">
-            <select name="Option" id="option">
-                <option value="$15.99">15.99</option>
-                <option value="$19.99"></option>
-                <option value="$99.99"></option>
-                <option value="$7.99"></option>
-                <option value="$25.99"></option>
-                <option value="$49.99"></option>
-            </select>
-            Square_feet: <input type="number" min="0" max="">
-        </form>
     </main>
     
     <script>
