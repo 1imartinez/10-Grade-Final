@@ -8,21 +8,18 @@
 </head>
 <body>
     <h1>Services</h1>
-    <article>
-        <div id="mySidebar" class="sidebar">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="author.html">Author</a>
-            <a href="services.html">Services</a>
-            <a href="appliances.html">Appliances</a>
-            <a href="membership.html">Membership</a>
-            <a href="index.html">Home</a>
-        </div>
-                          
-        <div id="main">
-            <button class="openbtn" onclick="openNav()">&#9776; Sidebar</button> 
-        </div>
-    </article>
-    <article id="container">
+     
+    <aside id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="author.html">Author</a>
+        <a href="services.html">Services</a>
+        <a href="appliances.html">Appliances</a>
+        <a href="membership.html">Membership</a>
+        <a href="index.html">Home</a>
+    </aside>
+    <main id="main">
+        <h1>Services</h1>
+        <button class="openbtn" onclick="toggle()">&#9776; Menu</button> 
         <article>
             <div>
                 <h2>Home Cleaning</h2>
@@ -36,8 +33,8 @@
                 <h2>Room Staging</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam sed dolor aliquid repudiandae dolorem cumque, officia quisquam optio dolorum officiis ducimus reiciendis odio voluptatum laborum quibusdam dolore qui doloribus numquam.</p>
             </div>
-        </article> 
-    </article>
+        </article>
+    </main>
     <style>
         /* The sidebar menu */
         .sidebar {
