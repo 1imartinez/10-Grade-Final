@@ -152,6 +152,19 @@
          document.getElementById("mySidebar").style.width = "0";
             document.getElementById("main").style.marginLeft = "0";
         }
+        function toggle(){
+            let w = document.getElementById("mySidebar").style.width;
+            //console.log(w);
+            if(w =="0px"){
+                openNav();
+            }
+            else if( w =="250p"){
+                closeNav();
+            }
+            else {
+                closeNav();
+            }
+        }
     </script>
 </body>
 </html>
